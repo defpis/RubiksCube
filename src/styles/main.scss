@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter Variable";
+  src: url("@assets/fonts/Inter.ttf");
+}
+
+// :root等价于html
+:root {
+  // 浏览器字体大小默认为1rem等于16px
+  font-size: calc(
+    1rem + 0.5vw
+  ); // 根据窗口宽度平滑缩放字体大小，例如宽度 500px 则字体大小为 16 + (500 / 100 * 0.5) = 18.5px
+
+  font-family: "Inter Variable";
+}

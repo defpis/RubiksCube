@@ -1,0 +1,19 @@
+.cover {
+  height: 100vh;
+
+  background-color: black;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  > h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+}

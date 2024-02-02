@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true, // 启用严格模式，强制执行更严格的类型检查
+
+    "jsx": "react-jsx", // 指定 JSX 的转换方式为 react-jsx（React 的 JSX 转换方式）
+
+    "target": "ESNext", // 将 TypeScript 编译为 ESNext 版本的 JavaScript
+    "module": "ESNext", // 使用 ESNext 模块系统
+
+    "moduleResolution": "Node", // 使用 Node.js 的模块解析策略
+    "esModuleInterop": true, // 启用 ES 模块与 CommonJS 模块的互操作性
+    "allowSyntheticDefaultImports": true, // 允许合成默认导入语法
+
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@assets/*": ["./src/assets/*"]
+    }
+  },
+
+  "include": ["./src/"], // 编译器包含的源代码目录
+  "exclude": ["./node_modules/"] // 不包括在编译中的目录（例如，排除 node_modules 目录）
+}

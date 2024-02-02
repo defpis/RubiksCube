@@ -1,0 +1,26 @@
+.rubiks-cube {
+  position: relative;
+  display: flex;
+  height: 100vh;
+
+  .full {
+    width: 100%;
+    height: 100%;
+  }
+
+  .half {
+    width: 50%;
+    height: 100%;
+  }
+
+  .settings {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    > * {
+      color: #909090;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+declare module "*.glsl" {
+  const value: string;
+  export default value;
+}
+
+declare module "*.vs" {
+  const value: string;
+  export default value;
+}
+
+declare module "*.fs" {
+  const value: string;
+  export default value;
+}
+
+declare module "*.ico" {
+  const value: string;
+  export default value;
+}
+
+declare module "*.svg" {
+  const value: string;
+  export default value;
+}
+
+declare module "*.png" {
+  const value: string;
+  export default value;
+}
+
+declare module "*.jpg" {
+  const value: string;
+  export default value;
+}
+
+declare module "*.webp" {
+  const value: string;
+  export default value;
+}
